@@ -16,12 +16,12 @@ export class LeftPanelComponent implements OnInit {
         this.musics = [
             {
                 'artist': 'The beatles',
-                'music': 'helter skelter',
+                'music': 'Helter Skelter',
                 'duration': '3:12 m'
             },
             {
                 'artist': 'Metallica',
-                'music': 'the unforgiven',
+                'music': 'The Unforgiven',
                 'duration': '6:12m'
             },
             {
@@ -36,17 +36,17 @@ export class LeftPanelComponent implements OnInit {
             },
             {
                 'artist': 'Megadeth',
-                'music': 'Tornado of souls',
+                'music': 'Tornado of Souls',
                 'duration': '6:30m'
             },
             {
-                'artist': 'A perfect circle',
-                'music': 'passive',
+                'artist': 'A Perfect Circle',
+                'music': 'Passive',
                 'duration': '4:30m'
             },
             {
                 'artist': 'Pantera',
-                'music': 'Cowboys from hell',
+                'music': 'Cowboys From Hell',
                 'duration': '4:30m'
             },
         ];
