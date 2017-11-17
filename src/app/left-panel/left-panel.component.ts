@@ -29,6 +29,21 @@ export class LeftPanelComponent implements OnInit {
                 'music': 'Angel',
                 'duration': '4:30m'
             },
+            {
+                'artist': 'Megadeth',
+                'music': 'Trust',
+                'duration': '5:30m'
+            },
+            {
+                'artist': 'Megadeth',
+                'music': 'Tornado of souls',
+                'duration': '6:30m'
+            },
+            {
+                'artist': 'A perfect circle',
+                'music': 'passive',
+                'duration': '4:30m'
+            },
         ];
     }
 
