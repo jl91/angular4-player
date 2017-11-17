@@ -1,9 +1,7 @@
 <section id="left-panel">
     <ol>
-        <li>aaaaaa</li>
-        <li>bbbbbb</li>
-        <li>cccccc</li>
-        <li>dddddd</li>
-        <li>eeeeee</li>
+        <li *ngFor="let music of musics">
+            {{music.artist + ' - ' + music.music}}
+        </li>
     </ol>
 </section>
