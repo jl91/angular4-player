@@ -1,0 +1,23 @@
+section#left-panel {
+    background-color: #121F1F;
+    width: 250px;
+    margin: 0px;
+    height: 100vw;
+    border-right: 1px black solid;
+    overflow-y: hidden;
+    ol {
+        margin: 0;
+        padding: 0;
+        list-style: decimal-leading-zero inside;
+        li {
+            padding: 10px 0 0 15px;
+        }
+        li:first-child {
+            padding-top: 25px;
+        }
+        li:hover {
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
