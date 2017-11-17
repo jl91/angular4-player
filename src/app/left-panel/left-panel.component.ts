@@ -44,6 +44,11 @@ export class LeftPanelComponent implements OnInit {
                 'music': 'passive',
                 'duration': '4:30m'
             },
+            {
+                'artist': 'Pantera',
+                'music': 'Cowboys from hell',
+                'duration': '4:30m'
+            },
         ];
     }
 
