@@ -1,4 +1,7 @@
 import {Component, OnInit} from '@angular/core';
+import {MusicsHttpService} from '../shared/services/musics-http.service';
+import {Music} from '../shared/model/music.model';
+import 'rxjs/add/operator/map';
 
 @Component({
     selector: 'app-left-panel',
@@ -7,19 +10,17 @@ import {Component, OnInit} from '@angular/core';
 })
 export class LeftPanelComponent implements OnInit {
 
-    public musics: any = [];
+    public musics: Array<Music>;
 
-    constructor() {
+    constructor(private musicsHttpService: MusicsHttpService) {
     }
 
     ngOnInit() {
-        this.musics = [
-            {
-                'artist': 'The beatles',
-                'music': 'Helter Skelter',
-                'duration': '3:12 m'
-            }
-        ];
+        this.musicsHttpService
+            .fetchMusics()
+            .subscribe((musics: Array<Music>) => {
+                this.musics = musics;
+            });
     }
 
 }

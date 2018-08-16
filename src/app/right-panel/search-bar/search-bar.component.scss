@@ -1,0 +1,21 @@
+#search {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 25px;
+    padding: 0 0 0 5px;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: white;
+    &:hover {
+        cursor: pointer;
+        color: orange;
+    }
+}
